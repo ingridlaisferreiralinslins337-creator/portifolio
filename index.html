@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Portfólio profissional de Ingrid Lins, estudante de Automação Industrial.">
+
+    <title>Ingrid Lins | Automação Industrial</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap 5 -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- CSS próprio -->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+    <header>
+        <nav id="mainNavbar" class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+
+                <a class="navbar-brand" href="#inicio">
+                    <span class="brand-mark">I</span>
+                    <span>Ingrid Lins</span>
+                </a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarContent"
+                    aria-controls="navbarContent"
+                    aria-expanded="false"
+                    aria-label="Abrir menu de navegação">
+                    <i class="bi bi-list"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Início</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#habilidades">Habilidades</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projetos">Projetos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#formacao">Formação</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#certificados">Certificados</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link contact-nav" href="#contato">
+                                Contato
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+        <section id="inicio" class="hero-section">
+            <div class="hero-decoration decoration-one"></div>
+            <div class="hero-decoration decoration-two"></div>
+
+            <div class="container">
+                <div class="row align-items-center gy-5">
+
+                    <div class="col-lg-7 order-2 order-lg-1 reveal">
+
+                        <span class="hero-label">
+                            <i class="bi bi-cpu"></i>
+                            Estudante de Automação Industrial
+                        </span>
+
+                        <h1>
+                            Olá, eu sou
+                            <span class="highlight-name">Ingrid Lins.</span>
+                        </h1>
+
+                        <div class="typing-wrapper">
+                            <span id="typingText"></span>
+                            <span class="typing-cursor" aria-hidden="true">|</span>
+                        </div>
+
+                        <p class="hero-description">
+                            Estudante do IFSP interessada em tecnologia, automação
+                            e desenvolvimento de telas e interfaces para empresas
+                            e setores industriais.
+                        </p>
+
+                        <div class="hero-buttons">
+                            <a href="#projetos" class="btn btn-primary-custom">
+                                Conheça meus projetos
+                                <i class="bi bi-arrow-down-right"></i>
+                            </a>
+
+                            <a href="#contato" class="btn btn-outline-custom">
+                                Entre em contato
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+
+                        <div class="hero-location">
+                            <i class="bi bi-geo-alt"></i>
+                            <span>Sertãozinho - SP</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-lg-5 order-1 order-lg-2 text-center reveal">
+                        <div class="profile-wrapper">
+
+                            <div class="profile-ring"></div>
+
+                            <div class="profile-image-container">
+                                <img
+                                    src="assets/img.jpeg"
+                                    alt="Imagem de perfil de Ingrid Lins"
+                                    class="profile-image">
+                            </div>
+
+                            <div class="floating-card floating-card-top">
+                                <i class="bi bi-lightning-charge"></i>
+                                <span>Tecnologia</span>
+                            </div>
+
+                            <div class="floating-card floating-card-bottom">
+                                <i class="bi bi-display"></i>
+                                <span>Interfaces</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- =========================
+             SOBRE
+        ========================== -->
+        <section id="sobre" class="section-padding section-soft">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-tag">Sobre mim</span>
+                    <h2>Transformando tecnologia em <span>soluções visuais.</span></h2>
+                    <p>
+                        Conheça um pouco da minha trajetória e dos meus interesses
+                        profissionais.
+                    </p>
+                </div>
+
+                <div class="row align-items-center g-5">
+
+                    <div class="col-lg-5 reveal">
+                        <div class="about-card">
+                            <div class="about-icon">
+                                <i class="bi bi-gear-wide-connected"></i>
+                            </div>
+
+                            <h3>Automação + Interfaces</h3>
+
+                            <p>
+                                Meu interesse profissional está voltado para a
+                                criação de telas e interfaces que possam ser
+                                utilizadas por empresas e setores industriais.
+                            </p>
+
+                            <div class="about-line"></div>
+
+                            <span>
+                                <i class="bi bi-mortarboard"></i>
+                                Estudante do IFSP
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7 reveal">
+
+                        <p class="about-text">
+                            Sou estudante de <strong>Automação Industrial no IFSP</strong>
+                            e tenho interesse em unir tecnologia, organização visual
+                            e necessidades industriais para desenvolver interfaces
+                            claras e funcionais.
+                        </p>
+
+                        <p class="about-text">
+                            Também possuo conhecimentos em <strong>HTML</strong> e
+                            <strong>AutoCAD</strong>, além de contato com ferramentas
+                            utilizadas em ambientes profissionais.
+                        </p>
+
+                        <p class="about-text">
+                            Meu objetivo é continuar desenvolvendo meus conhecimentos
+                            e futuramente atuar com soluções de telas e interfaces
+                            para empresas e setores industriais.
+                        </p>
+
+                        <div class="about-highlights">
+                            <div>
+                                <i class="bi bi-code-slash"></i>
+                                <span>Desenvolvimento</span>
+                            </div>
+
+                            <div>
+                                <i class="bi bi-grid-1x2"></i>
+                                <span>Interfaces</span>
+                            </div>
+
+                            <div>
+                                <i class="bi bi-diagram-3"></i>
+                                <span>Automação</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- =========================
+             HABILIDADES
+        ========================== -->
+        <section id="habilidades" class="section-padding">
+            <div class="container">
+
+                <div class="section-heading text-center reveal">
+                    <span class="section-tag">Habilidades</span>
+                    <h2>Ferramentas que fazem parte da minha jornada.</h2>
+                    <p>
+                        Conhecimentos que venho desenvolvendo durante minha formação.
+                    </p>
+                </div>
+
+                <div class="row g-4 justify-content-center">
+
+                    <div class="col-sm-6 col-lg-4 reveal">
+                        <article class="skill-card">
+                            <div class="skill-icon html-icon">
+                                <i class="bi bi-filetype-html"></i>
+                            </div>
+
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Estruturação de páginas e interfaces web.</p>
+                            </div>
+                        </article>
+                    </div>
+
+
+                    <div class="col-sm-6 col-lg-4 reveal">
+                        <article class="skill-card">
+                            <div class="skill-icon cad-icon">
+                                <i class="bi bi-bounding-box"></i>
+                            </div>
+
+                            <div>
+                                <h3>AutoCAD</h3>
+                                <p>Ferramenta utilizada em atividades de desenho e projetos.</p>
+                            </div>
+                        </article>
+                    </div>
+
+
+                    <div class="col-sm-6 col-lg-4 reveal">
+                        <article class="skill-card">
+                            <div class="skill-icon industry-icon">
+                                <i class="bi bi-cpu"></i>
+                            </div>
+
+                            <div>
+                                <h3>Automação Industrial</h3>
+                                <p>Conhecimentos desenvolvidos durante a formação no IFSP.</p>
+                            </div>
+                        </article>
+                    </div>
+
+
+                    <div class="col-sm-6 col-lg-4 reveal">
+                        <article class="skill-card skill-card-future">
+                            <div class="skill-icon future-icon">
+                                <i class="bi bi-plus-lg"></i>
+                            </div>
+
+                            <div>
+                                <h3>Em evolução</h3>
+                                <p>Novas tecnologias serão adicionadas conforme meu aprendizado.</p>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- =========================
+             PROJETOS
+        ========================== -->
+        <section id="projetos" class="section-padding section-soft">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-tag">Projetos</span>
+                    <h2>Projetos em construção.</h2>
+                    <p>
+                        Este espaço está preparado para apresentar meus próximos
+                        trabalhos e experiências.
+                    </p>
+                </div>
+
+                <div class="project-empty-card reveal">
+
+                    <div class="project-empty-icon">
+                        <i class="bi bi-folder2-open"></i>
+                    </div>
+
+                    <div>
+                        <span class="project-status">
+                            <i class="bi bi-circle-fill"></i>
+                            Em construção
+                        </span>
+
+                        <h3>Novos projetos em breve</h3>
+
+                        <p>
+                            Ainda não possuo projetos para apresentar, mas esta área
+                            está preparada para receber futuros trabalhos, incluindo
+                            projetos de automação, interfaces e desenvolvimento web.
+                        </p>
+
+                        <div class="project-placeholder-tags">
+                            <span>Automação</span>
+                            <span>Interfaces</span>
+                            <span>Web</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             FORMAÇÃO
+        ========================== -->
+        <section id="formacao" class="section-padding">
+            <div class="container">
+
+                <div class="section-heading text-center reveal">
+                    <span class="section-tag">Formação</span>
+                    <h2>Minha trajetória acadêmica.</h2>
+                    <p>
+                        Formação e conhecimentos que fazem parte do meu desenvolvimento.
+                    </p>
+                </div>
+
+                <div class="timeline">
+
+                    <article class="timeline-item reveal">
+                        <div class="timeline-dot">
+                            <i class="bi bi-cpu"></i>
+                        </div>
+
+                        <div class="timeline-card">
+                            <span class="timeline-status">Cursando</span>
+
+                            <h3>Automação Industrial</h3>
+
+                            <h4>
+                                <i class="bi bi-building"></i>
+                                Instituto Federal de São Paulo — IFSP
+                            </h4>
+
+                            <p>
+                                Formação voltada para conhecimentos relacionados
+                                à automação e tecnologia industrial.
+                            </p>
+                        </div>
+                    </article>
+
+
+                    <article class="timeline-item reveal">
+                        <div class="timeline-dot">
+                            <i class="bi bi-briefcase"></i>
+                        </div>
+
+                        <div class="timeline-card">
+                            <h3>Administração</h3>
+
+                            <h4>
+                                <i class="bi bi-building"></i>
+                                ADOT
+                            </h4>
+
+                            <p>
+                                Formação/curso informado pela estudante.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             CERTIFICADOS
+        ========================== -->
+        <section id="certificados" class="section-padding section-soft">
+            <div class="container">
+
+                <div class="section-heading text-center reveal">
+                    <span class="section-tag">Certificados</span>
+                    <h2>Certificados e conquistas.</h2>
+                    <p>
+                        Esta seção poderá receber futuras certificações.
+                    </p>
+                </div>
+
+                <div class="empty-section-card reveal">
+                    <div class="empty-icon">
+                        <i class="bi bi-award"></i>
+                    </div>
+
+                    <h3>Nenhum certificado adicionado ainda</h3>
+
+                    <p>
+                        Quando novos certificados forem conquistados, eles poderão
+                        ser apresentados aqui com nome, instituição e ano.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             CONTATO
+        ========================== -->
+        <section id="contato" class="section-padding contact-section">
+            <div class="container">
+
+                <div class="contact-wrapper reveal">
+
+                    <div class="row align-items-center g-5">
+
+                        <div class="col-lg-6">
+
+                            <span class="section-tag">Contato</span>
+
+                            <h2>
+                                Vamos conversar sobre
+                                <span>tecnologia?</span>
+                            </h2>
+
+                            <p>
+                                Para oportunidades, conexões profissionais ou
+                                conversas sobre tecnologia e automação, você pode
+                                entrar em contato comigo pelos canais abaixo.
+                            </p>
+
+                            <div class="contact-location">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <span>Sertãozinho - SP</span>
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-lg-6">
+
+                            <div class="contact-links">
+
+                                <a
+                                    href="https://wa.me/5516993046336"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="contact-card">
+
+                                    <span class="contact-card-icon whatsapp-icon">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </span>
+
+                                    <span class="contact-card-info">
+                                        <small>WhatsApp</small>
+                                        <strong>Entrar em contato</strong>
+                                    </span>
+
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </a>
+
+
+                                <a
+                                    href="https://www.instagram.com/i__linns/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="contact-card">
+
+                                    <span class="contact-card-icon instagram-icon">
+                                        <i class="bi bi-instagram"></i>
+                                    </span>
+
+                                    <span class="contact-card-info">
+                                        <small>Instagram</small>
+                                        <strong>@i__linns</strong>
+                                    </span>
+
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer-content">
+
+                <div>
+                    <a href="#inicio" class="footer-brand">
+                        <span class="brand-mark">I</span>
+                        Ingrid Lins
+                    </a>
+
+                    <p>
+                        Automação Industrial • Tecnologia • Interfaces
+                    </p>
+                </div>
+
+                <div class="footer-copy">
+                    <p>
+                        © 2026 Ingrid Lins
+                    </p>
+
+                    <span>
+                        Portfólio desenvolvido com HTML, CSS, JavaScript e Bootstrap.
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- =========================
+         BOTÃO VOLTAR AO TOPO
+    ========================== -->
+    <button
+        id="backToTop"
+        class="back-to-top"
+        aria-label="Voltar ao topo"
+        title="Voltar ao topo">
+
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <!-- JavaScript próprio -->
+    <script src="assets/program.js"></script>
+
+</body>
+</html>
